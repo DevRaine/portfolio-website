@@ -22,7 +22,7 @@
 			},
 			drops = [],
 			draw = function(drop, i){
-				ctx.fillStyle = "rgba(255, 255, 255, .9)";
+				ctx.fillStyle = "rgba(255, 255, 255, 1)";
 				ctx.beginPath();
 				ctx.arc(drop.pos.x, drop.pos.y, drop.radius, 0, Math.PI * 2);
 				ctx.fill();
@@ -75,10 +75,6 @@
 		ctx.fillStyle = grdnt;
 		ctx.fillRect(0, 0, c.width, c.height);
 	},
-	sky = new Rain();
-	sky = new Rain();
-	sky = new Rain();
-	sky = new Rain();
 	sky = new Rain();
 	
 	c.width = window.innerWidth;
