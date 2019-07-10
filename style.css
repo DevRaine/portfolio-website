@@ -114,6 +114,12 @@
   right: 150px;
 }
 
+form {
+  margin-top: 200px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 @keyframes rain {
   0% {
     bottom: -10px;
