@@ -169,3 +169,25 @@ form {
   }
 }
 
+@media only screen and (min-width: 1000px) and (min-height: 1000px) {
+  .raine-name {
+    font-size: 80px;
+    letter-spacing: 0.1em;
+    margin: 40px auto 20px;  
+  }
+  .cloud {
+    margin: 500px auto 20px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (min-height: 2000px) {
+  .raine-name {
+    font-size: 80px;
+    letter-spacing: 0.1em;
+    margin: 40px auto 20px;  
+  }
+  .cloud {
+    margin: 500px auto 20px;
+  }
+}
+
